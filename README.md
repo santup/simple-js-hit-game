@@ -1,7 +1,7 @@
 "Hit Da Golf"
 =============
 
-"Hit Da Golf" is a beta version, small interactive game developed using HTML, CSS and JavaScript. User's every hit time is calculated and Based on number of user hits with speed, average of hit speed is calculated. 
+"Hit Da Golf" is a beta version, simple interactive game developed using HTML, CSS and JavaScript. User's every hit time is calculated and Based on number of user hits with speed, average of hit speed is calculated. 
 
 Online demo can be found here - <a href="http://goo.gl/0U7wXU" target="_blank">VIEW DEMO</a>
 
