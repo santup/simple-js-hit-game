@@ -5,6 +5,6 @@
 
 Online demo can be found here - http://goo.gl/0U7wXU
 
-Follow news and developments on twitter: @santup
+Follow news and developments on twitter: <a href="https://twitter.com/santup009" target="_blank">@santup</a>
 
 Current version: beta
