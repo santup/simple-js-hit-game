@@ -7,4 +7,4 @@ Online demo can be found here - <a href="http://goo.gl/0U7wXU" target="_blank">V
 
 Follow news and developments on twitter: <a href="https://twitter.com/santup009" target="_blank">@santup</a>
 
-Current version: beta
+<h1>Current version: beta</h1>
