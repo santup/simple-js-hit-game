@@ -1,0 +1,220 @@
+html, body {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		background-image: url(../images/grass_bg.png);
+    	background-position: bottom;
+    	background-attachment: fixed;
+    	background-repeat: no-repeat;
+	}
+
+	/*character*/
+	#dme{
+		position: absolute;
+		bottom:0px;
+		padding:0 30px 0 30px;
+		left:0;
+	}
+
+	/*seconds taken to click golf ball*/
+	#score{
+		background-image: url(../images/score.png);
+		background-repeat: no-repeat;
+		background-position:bottom;
+		width:200px;
+		height:244px;
+		position: fixed;
+		bottom: 0;
+		right: 100px;			
+	}
+
+	#score h1{
+
+		padding: 38px 36px;
+		font-size: 3.0em;
+		font-family: arial;
+		line-height: 18px;
+		color: #3B0B0B;
+	}
+
+	#score h4{
+
+		margin:-50px 0 0 50px;
+		font-size: 1.5em;
+		font-family: arial;
+		color:#3B0B0B;	
+		
+	}
+	/*------------ENDS--------------*/
+
+
+	/*golf ball appearing area*/
+	#container{
+		width:900px;
+		height:345px;
+		float:right;
+		margin:20px;
+
+	}
+
+	/*GOLF Ball*/
+	#golf{
+		position: relative;
+		width:100px;
+		display: none;
+		
+		
+	}
+
+	/*logo on hanging board*/
+	#logo{
+		float: left;
+		left:20px;
+		position: relative;
+	}
+
+	/*hits remaining div*/
+	#remain{
+		position: fixed;
+		bottom: 20px;
+		right: 490px;	
+
+	}
+	
+	/*hits remaining text*/
+	#ir{
+		float:left;
+		font-size: 3em;		
+		margin-top: 75px;
+		color:#5FB404;
+		font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif
+	}
+
+	/*hits remaining: number*/
+	#no{
+		float:left;
+		margin-left: 10px;
+		font-size: 4em;	
+		color:#74DF00;	
+		font-family: Copperplate,"Copperplate Gothic Light",fantasy
+	}
+
+	/*transparent backgrounds*/
+	#cover{
+		z-index:1;
+		position: fixed;
+		
+	}
+
+	#result{
+		z-index:1;
+		position: fixed;
+		display:none;
+	}
+
+	/*game start play button*/
+	#play img{
+		width:150px;
+		z-index:111;
+		position: fixed;
+   		top: 50%;
+    	left: 50%;
+ 		margin-left: -75px;
+    	margin-top: -75px;
+		background-position: center;
+	}
+
+	
+	/*background for result on final screen*/
+	#resultbg{
+		background-image: url(../images/result.png);
+		background-repeat: no-repeat;
+		background-position:center;
+		width:450px;
+		height: 261px;
+		z-index:111;
+		position: fixed;
+   		top: 50%;
+    	left: 50%;
+    	margin-left: -230px;
+    	margin-top: -131px;
+			
+	}
+
+	/*replay button*/
+	#hitagain{
+		position: fixed;
+		float: left;
+		margin: 143px 0 0 336px;
+	}
+
+	#hitagain img{
+		width:70px;
+
+	}
+
+	/*result screen elements*/
+	#resultbg h1{
+
+		position: fixed;
+		padding:54px 88px;	
+		font-size: 3.5em;
+		font-family: arial;
+		line-height: 18px;
+		color:#fff;
+
+		text-shadow: 0 1px 0 #ccc, 
+              		 0 2px 0 #c9c9c9,
+              		 0 3px 0 #bbb,
+               		 0 4px 0 #b9b9b9,
+               		 0 5px 0 #aaa,
+               		 0 6px 1px rgba(0,0,0,.1),
+               		 0 0 5px rgba(0,0,0,.1),
+               		 0 1px 3px rgba(0,0,0,.3),
+               		 0 3px 5px rgba(0,0,0,.2),
+               		 0 5px 10px rgba(0,0,0,.25),
+               		 0 10px 10px rgba(0,0,0,.2),
+              		 0 20px 20px rgba(0,0,0,.15);
+	}
+
+	#resultbg h4{
+		position: fixed;
+		margin: 97px 0 0 203px;
+		font-size: 1.7em;
+		font-family: arial;
+		color: #fff;
+		text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 
+					 0px 8px 13px rgba(0,0,0,0.1),
+					 0px 18px 23px rgba(0,0,0,0.1);
+	}
+
+	/*bird character at bottom*/
+	#bird{
+		position: fixed;
+		margin:-58px 0 0 97px;
+		width:120px;
+	}
+
+	/*audio player mute/unmute*/
+	#controls {
+		position: absolute;
+		bottom: 290px;
+	padding: 0px 285px 0px 30px;	
+		right:0;
+		z-index:999;
+	}
+
+	#sound{
+		position: absolute;
+
+	}
+
+	#mute{
+	 	position: absolute;
+	 	display: none;
+	}
+	/*--------------ENDS----------------*/
+	</style>
+
+	

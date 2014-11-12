@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hit Da Golf - Beta game</title>
+
+	<meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="Learning JavaScript.!">
+
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	
+</head>
+
+<body>
+<div id="wrapper">
+	<!-- audio player-->
+	<audio id="player" autoplay loop src="music/musicbg.ogg"></audio>
+	<!-- audio player controls-->
+	<div id="controls">
+		<img src="images/sound.png" id="sound">	
+		<img src="images/mute.png" id="mute">	
+	</div>
+	
+
+	<!-- first screen with transparent background -->
+	<div id="cover">
+		<a href="#" id="play"><img src="images/play.png"></a>
+		<img src="images/cover.png" style="background-repeat:repeat">
+	</div>
+
+
+	<!-- last screen with transparent background -->
+	<div id="result">
+		<div id="resultbg">
+			<h1 id="resulthone">000</h1><h4>sec</h4>
+			<a href="#" id="hitagain"><img src="images/playagain.png"></a>	
+		</div>
+		<img src="images/cover2.png" >
+	</div>
+
+	<!-- logo-->
+	<div id="logo">
+		<img src="images/headboard.png">
+	</div>
+
+	<!-- golf ball-->
+	<div>	
+		<a href="#"><img src="images/golfball.png"  id="golf"/></a>	
+	</div>
+
+	<!-- hits remaining : number TEXT-->
+	<div id="remain">
+			<p id="ir">Hits remaining:</p>
+			<p id="no">5</p>
+			
+	</div>	
+
+	<!-- time taken to click TEXT display-->
+	<div id="score">
+			<img src="images/bird.png" id="bird">
+			<h1 id="hone">0.000</h1>
+			<h4>seconds</h4>
+	</div>	
+
+	<!-- character-->
+	<img src="images/me.png" id="dme"/>
+</div>	
+	<script src="js/script.js"></script>
+
+</body>
+</html>
